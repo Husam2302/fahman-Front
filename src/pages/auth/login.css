@@ -1,0 +1,189 @@
+.login-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #030712;
+    padding: 1rem;
+}
+
+.login-card {
+    width: 100%;
+    max-width: 28rem;
+    background-color: #111827;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+@media (min-width: 768px) {
+    .login-card {
+        padding: 2.5rem;
+    }
+}
+
+.login-header {
+    text-align: center;
+}
+
+.login-title {
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+}
+
+.login-subtitle {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #e5e7eb;
+}
+
+.login-description {
+    color: #6b7280;
+    margin-top: 0.5rem;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.login-form-group {
+    display: block;
+}
+
+.login-label {
+    display: block;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #d1d5db;
+    margin-bottom: 0.5rem;
+}
+
+.login-input-wrapper {
+    position: relative;
+}
+
+.login-input {
+    width: 100%;
+    padding: 1rem;
+    padding-left: 2.5rem;
+    background-color: #1f2937;
+    border: 1px solid #374151;
+    border-radius: 0.75rem;
+    color: #ffffff;
+    font-size: 1rem;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.login-input::placeholder {
+    color: #6b7280;
+}
+
+.login-input:focus {
+    outline: none;
+    border-color: #a855f7;
+    box-shadow: 0 0 0 3px rgba(168, 85, 247, 0.1);
+}
+
+.login-icon {
+    position: absolute;
+    left: 0.75rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1.25rem;
+    height: 1.25rem;
+    color: #6b7280;
+}
+
+.login-remember-me {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.login-checkbox {
+    width: 1.25rem;
+    height: 1.25rem;
+    cursor: pointer;
+    accent-color: #9333ea;
+}
+
+.login-checkbox:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+.login-checkbox-label {
+    font-size: 0.875rem;
+    color: #d1d5db;
+    cursor: pointer;
+    user-select: none;
+}
+
+.login-error {
+    color: #f87171;
+    background-color: rgba(153, 27, 27, 0.3);
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+.login-button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 1rem 1.5rem;
+    background-color: #9333ea;
+    color: #ffffff;
+    font-weight: 600;
+    border-radius: 0.75rem;
+    font-size: 1.125rem;
+    box-shadow: 0 20px 25px -5px rgba(168, 85, 247, 0.5);
+    transition: background-color 0.3s, opacity 0.3s;
+    border: none;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #7e22ce;
+}
+
+.login-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.login-button-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.login-hint {
+    text-align: center;
+    font-size: 0.875rem;
+    color: #6b7280;
+    padding-top: 1rem;
+}
+
+.login-spinner {
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}

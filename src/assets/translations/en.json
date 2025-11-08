@@ -1,0 +1,161 @@
+{
+    "app": {
+        "name": "Fahman",
+        "adminPanel": "Admin Control Panel",
+        "user": "User",
+        "logout": "Logout",
+        "footer": "Fahman Admin Panel",
+        "language": "Language",
+        "switchLanguage": "Switch Language"
+    },
+    "common": {
+        "close": "Close",
+        "cancel": "Cancel",
+        "delete": "Delete",
+        "deleting": "Deleting...",
+        "confirmDelete": "Confirm Delete",
+        "deleteConfirmMessage": "Are you sure you want to delete",
+        "deleteWarning": "This action cannot be undone.",
+        "questionMark": "?"
+    },
+    "login": {
+        "title": "Fahman",
+        "subtitle": "Admin Control Panel",
+        "description": "Please log in to continue",
+        "email": "Email",
+        "password": "Password",
+        "loginButton": "Log In",
+        "loggingIn": "Logging in...",
+        "error": "Invalid username or password",
+        "hint": "* For testing, use: admin@fhamaan.com / 123456",
+        "emailPlaceholder": "name@example.com",
+        "passwordPlaceholder": "••••••••",
+        "rememberMe": "Remember me"
+    },
+    "dashboard": {
+        "tabs": {
+            "manage": "Manage Articles",
+            "create": "Create New Article",
+            "categories": "Manage Categories",
+            "users": "Manage Users"
+        }
+    },
+    "articles": {
+        "create": {
+            "title": "Create New Article",
+            "categories": {
+                "political": "Political",
+                "economic": "Economic",
+                "criminal": "Criminal",
+                "social": "Social",
+                "cultural": "Cultural"
+            },
+            "selectCategory": "Select Category",
+            "articleTitle": "Article Title",
+            "articleContent": "Article Content",
+            "titlePlaceholder": "Enter article title here...",
+            "contentPlaceholder": "What's on your mind...",
+            "attachImage": "Attach Image",
+            "uploadHint": "Click or drag and drop image here",
+            "imageUrl": "Image URL",
+            "imageUrlPlaceholder": "https://example.com/image.jpg",
+            "imageUrlHint": "Enter image URL directly or upload an image from your device below",
+            "publish": "Publish",
+            "publishing": "Publishing...",
+            "success": "Article published successfully",
+            "error": "Failed to publish",
+            "userError": "Error: User not initialized",
+            "validationError": "Please fill in title and content",
+            "charCount": "/1000",
+            "imageUploadNeeded": "Image must be uploaded first to get a URL. Image upload is not available at the moment.",
+            "updateSuccess": "Article updated successfully",
+            "editTitle": "Edit Article",
+            "categoryError": "Please select a valid category",
+            "loadingCategories": "Loading categories..."
+        },
+        "manage": {
+            "title": "Manage Articles",
+            "loading": "Loading...",
+            "loadError": "Failed to load articles",
+            "deleteError": "Failed to delete article",
+            "deleteTitle": "Delete Article",
+            "noTitle": "No Title",
+            "noContent": "No content.",
+            "publishDate": "Publish Date",
+            "author": "Author",
+            "notAvailable": "Not Available",
+            "empty": "No articles found. Create your first article.",
+            "confirmDelete": "Are you sure you want to delete this article?",
+            "filterByCategory": "Filter by Category",
+            "allCategories": "All Categories",
+            "filteredEmpty": "No articles found in this category."
+        }
+    },
+    "users": {
+        "title": "Manage Users",
+        "loading": "Loading...",
+        "loadError": "Failed to load users",
+        "updateError": "Failed to update user permissions",
+        "searchPlaceholder": "Search by name or email...",
+        "empty": "No users found",
+        "noName": "No name",
+        "noEmail": "No email",
+        "editRole": "Edit Permissions",
+        "save": "Save",
+        "cancel": "Cancel",
+        "roles": {
+            "user": "User",
+            "lawyer": "Lawyer",
+            "User": "User",
+            "Lawyer": "Lawyer",
+            "Admin": "Admin",
+            "admin": "Admin"
+        },
+        "table": {
+            "name": "Name",
+            "email": "Email",
+            "role": "Role",
+            "actions": "Actions"
+        },
+        "pageInfo": "Page {{current}} of {{total}}",
+        "previous": "Previous",
+        "next": "Next",
+        "previousPage": "Previous Page",
+        "nextPage": "Next Page"
+    },
+    "categories": {
+        "title": "Manage Categories",
+        "loading": "Loading...",
+        "loadError": "Failed to load categories",
+        "add": "Add",
+        "edit": "Edit",
+        "delete": "Delete",
+        "save": "Save",
+        "cancel": "Cancel",
+        "namePlaceholder": "New category name",
+        "nameRequired": "Category name is required",
+        "addError": "Failed to add category",
+        "updateError": "Failed to update category",
+        "deleteError": "Failed to delete category",
+        "confirmDelete": "Are you sure you want to delete this category?",
+        "empty": "No categories found",
+        "noPermission": "You don't have permission to access this page",
+        "unknown": "Unknown category"
+    },
+    "comments": {
+        "title": "Comments",
+        "loading": "Loading...",
+        "loadError": "Failed to load comments",
+        "empty": "No comments yet",
+        "placeholder": "Write your comment here...",
+        "submit": "Submit",
+        "submitting": "Submitting...",
+        "createError": "Failed to add comment",
+        "delete": "Delete",
+        "deleteTitle": "Delete Comment",
+        "confirmDelete": "Are you sure you want to delete this comment?",
+        "deleteError": "Failed to delete comment",
+        "anonymous": "Anonymous",
+        "thisComment": "this comment"
+    }
+}

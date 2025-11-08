@@ -1,0 +1,160 @@
+{
+    "app": {
+        "name": "فهمان",
+        "adminPanel": "لوحة تحكم المشرف",
+        "user": "مستخدم",
+        "logout": "خروج",
+        "footer": "Fhaman Admin Panel",
+        "language": "اللغة",
+        "switchLanguage": "تبديل اللغة"
+    },
+    "common": {
+        "close": "إغلاق",
+        "cancel": "إلغاء",
+        "delete": "حذف",
+        "deleting": "جار الحذف...",
+        "confirmDelete": "تأكيد الحذف",
+        "deleteConfirmMessage": "هل أنت متأكد أنك تريد حذف",
+        "deleteWarning": "لا يمكن التراجع عن هذا الإجراء.",
+        "questionMark": "؟"
+    },
+    "login": {
+        "title": "فهمان",
+        "subtitle": "لوحة تحكم المشرف",
+        "description": "الرجاء تسجيل الدخول للمتابعة",
+        "email": "البريد الإلكتروني",
+        "password": "كلمة المرور",
+        "loginButton": "تسجيل الدخول",
+        "loggingIn": "جار الدخول...",
+        "error": "اسم المستخدم أو كلمة المرور غير صحيحة",
+        "emailPlaceholder": "name@example.com",
+        "passwordPlaceholder": "••••••••",
+        "rememberMe": "تذكرني"
+    },
+    "dashboard": {
+        "tabs": {
+            "manage": "إدارة المقالات",
+            "create": "إنشاء مقال جديد",
+            "categories": "إدارة التصنيفات",
+            "users": "إدارة المستخدمين"
+        }
+    },
+    "articles": {
+        "create": {
+            "title": "إنشاء مقال جديد",
+            "categories": {
+                "political": "سياسي",
+                "economic": "اقتصادي",
+                "criminal": "جنائي",
+                "social": "اجتماعي",
+                "cultural": "ثقافي"
+            },
+            "selectCategory": "اختر التصنيف",
+            "articleTitle": "عنوان المقال",
+            "articleContent": "محتوى المقال",
+            "titlePlaceholder": "أدخل عنوان المقال هنا...",
+            "contentPlaceholder": "ماذا يدور في ذهنك...",
+            "attachImage": "إرفاق صورة",
+            "uploadHint": "انقر أو اسحب وإفلت الصورة هنا",
+            "imageUrl": "رابط الصورة",
+            "imageUrlPlaceholder": "https://example.com/image.jpg",
+            "imageUrlHint": "أدخل رابط الصورة مباشرة أو ارفع صورة من جهازك أدناه",
+            "publish": "نشر",
+            "publishing": "جار النشر...",
+            "success": "تم نشر المقال بنجاح",
+            "error": "فشل النشر",
+            "userError": "خطأ: لم يتم تهيئة المستخدم",
+            "validationError": "الرجاء تعبئة العنوان والمحتوى",
+            "charCount": "/1000",
+            "imageUploadNeeded": "يجب رفع الصورة أولاً للحصول على رابط. رفع الصور غير متاح حالياً.",
+            "updateSuccess": "تم تحديث المقال بنجاح",
+            "editTitle": "تعديل المقال",
+            "categoryError": "يرجى اختيار تصنيف صحيح",
+            "loadingCategories": "جار تحميل التصنيفات..."
+        },
+        "manage": {
+            "title": "إدارة المقالات",
+            "loading": "جار التحميل...",
+            "loadError": "فشل تحميل المقالات",
+            "deleteError": "فشل حذف المقال",
+            "deleteTitle": "حذف المقال",
+            "noTitle": "بلا عنوان",
+            "noContent": "لا يوجد محتوى.",
+            "publishDate": "تاريخ النشر",
+            "author": "الكاتب",
+            "notAvailable": "غير متوفر",
+            "empty": "لم يتم العثور على مقالات. قم بإنشاء أول مقال لك.",
+            "confirmDelete": "هل أنت متأكد أنك تريد حذف هذا المقال؟",
+            "filterByCategory": "تصفية حسب التصنيف",
+            "allCategories": "جميع التصنيفات",
+            "filteredEmpty": "لم يتم العثور على مقالات في هذا التصنيف."
+        }
+    },
+    "users": {
+        "title": "إدارة المستخدمين",
+        "loading": "جار التحميل...",
+        "loadError": "فشل تحميل المستخدمين",
+        "updateError": "فشل تحديث صلاحيات المستخدم",
+        "searchPlaceholder": "ابحث بالاسم أو الإيميل...",
+        "empty": "لم يتم العثور على مستخدمين",
+        "noName": "بلا اسم",
+        "noEmail": "بلا إيميل",
+        "editRole": "تعديل الصلاحيات",
+        "save": "حفظ",
+        "cancel": "إلغاء",
+        "roles": {
+            "user": "مستخدم",
+            "lawyer": "محامي",
+            "User": "مستخدم",
+            "Lawyer": "محامي",
+            "Admin": "مسؤول",
+            "admin": "مسؤول"
+        },
+        "table": {
+            "name": "الاسم",
+            "email": "البريد الإلكتروني",
+            "role": "الصلاحيات",
+            "actions": "الإجراءات"
+        },
+        "pageInfo": "الصفحة {{current}} من {{total}}",
+        "previous": "السابق",
+        "next": "التالي",
+        "previousPage": "الصفحة السابقة",
+        "nextPage": "الصفحة التالية"
+    },
+    "categories": {
+        "title": "إدارة التصنيفات",
+        "loading": "جار التحميل...",
+        "loadError": "فشل تحميل التصنيفات",
+        "add": "إضافة",
+        "edit": "تعديل",
+        "delete": "حذف",
+        "save": "حفظ",
+        "cancel": "إلغاء",
+        "namePlaceholder": "اسم التصنيف الجديد",
+        "nameRequired": "اسم التصنيف مطلوب",
+        "addError": "فشل إضافة التصنيف",
+        "updateError": "فشل تحديث التصنيف",
+        "deleteError": "فشل حذف التصنيف",
+        "confirmDelete": "هل أنت متأكد أنك تريد حذف هذا التصنيف؟",
+        "empty": "لا توجد تصنيفات",
+        "noPermission": "غير مصرح لك بالوصول إلى هذه الصفحة",
+        "unknown": "تصنيف غير معروف"
+    },
+    "comments": {
+        "title": "التعليقات",
+        "loading": "جار التحميل...",
+        "loadError": "فشل تحميل التعليقات",
+        "empty": "لا توجد تعليقات بعد",
+        "placeholder": "اكتب تعليقك هنا...",
+        "submit": "إرسال",
+        "submitting": "جار الإرسال...",
+        "createError": "فشل إضافة التعليق",
+        "delete": "حذف",
+        "deleteTitle": "حذف التعليق",
+        "confirmDelete": "هل أنت متأكد أنك تريد حذف هذا التعليق؟",
+        "deleteError": "فشل حذف التعليق",
+        "anonymous": "مجهول",
+        "thisComment": "هذا التعليق"
+    }
+}
